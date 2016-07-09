@@ -2,13 +2,11 @@
 # Setup Atom editor
 set -euf -o pipefail
 
-AtomHome="/home/${1}/.atom/"
+AtomHome="${HOME}/.atom/"
 AtomPackages="packages.txt"
 
 if [ ! -d "${AtomHome}" ]; then
   mkdir ${AtomHome}
-  chmod 0750 ${AtomHome}
-  chown ${1}:${1} ${AtomHome}
 fi
 cp ./config.cson ${AtomHome}
 cp ./keymap.cson ${AtomHome}
