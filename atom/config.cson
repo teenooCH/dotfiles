@@ -1,0 +1,37 @@
+"*":
+  "atom-terminal":
+    app: "/usr/bin/konsole"
+  core:
+    disabledPackages: [
+      "atom-terminal-panel"
+      "terminal-status"
+    ]
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+    ]
+    themes: [
+      "one-light-ui"
+      "monokai-light"
+    ]
+  editor:
+    fontSize: 18
+  "file-types":
+    bsh: "source.shell"
+  "highlight-line":
+    enableSelectionBorder: true
+    hideHighlightOnSelect: true
+    underline: "dashed"
+  minimap:
+    absoluteMode: true
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-light-ui":
+    fontSize: 16
+  welcome:
+    showOnStartup: false
+".go.source":
+  editor:
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: false
+    tabLength: 4

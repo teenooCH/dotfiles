@@ -1,0 +1,20 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls -h'
+alias ll='ls -lh'
+alias la='ls -alh'
+alias df='df -h'
+alias h='history'
+alias dps='docker ps'
+alias dim='docker images'
+
+PS1='[\u@\h \W]\$ '
+
+export GOPATH="${HOME}/go"
+export PATH="${HOME}/bin:${GOPATH}/bin:${PATH}"
+#export AURDEST="/home/aur"
