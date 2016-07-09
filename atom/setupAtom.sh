@@ -7,7 +7,7 @@ AtomPackages="packages.txt"
 
 if [ ! -d "${AtomHome}" ]; then
   mkdir ${AtomHome}
-  chmod 0750 ${1} ${AtomHome}
+  chmod 0750 ${AtomHome}
   chown ${1}:${1} ${AtomHome}
 fi
 cp ./config.cson ${AtomHome}
