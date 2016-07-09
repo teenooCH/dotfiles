@@ -2,7 +2,7 @@
 # Setup Atom editor
 set -euf -o pipefail
 
-AtomHome="${HOME}/.atom/"
+AtomHome="${1}/.atom/"
 AtomPackages="packages.txt"
 
 if [ -d "${AtomHome}" ]; then
