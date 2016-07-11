@@ -17,4 +17,6 @@ PS1='[\u@\h \W]\$ '
 
 export GOPATH="${HOME}/go"
 export PATH="${HOME}/bin:${GOPATH}/bin:${PATH}"
-#export AURDEST="/home/aur"
+export AURDEST="/home/aur"
+
+xhost +local: >/dev/null
