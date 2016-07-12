@@ -9,8 +9,5 @@
 
 PS1='[\u@\h \W]\$ '
 
-export GOPATH="${HOME}/go"
-export PATH="${HOME}/bin:${GOPATH}/bin:${PATH}"
-export AURDEST="/home/aur"
-
-[[ -x /usr/bin/xhost ]] && xhost +local: >/dev/null
+export GOPATH="/go"
+export PATH="${GOPATH}/bin:${PATH}"
