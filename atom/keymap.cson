@@ -3,3 +3,6 @@
   'ctrl-d': 'editor:select-word'
 '.platform-linux atom-workspace, .platform-win32 atom-workspace':
   'shift-enter': 'terminal-panel:toggle'
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-d': 'editor:select-word'
+  'ctrl-f': 'find-and-replace:show'
