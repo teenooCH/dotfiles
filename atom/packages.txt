@@ -9,6 +9,7 @@ go-get
 gometalinter-linter
 go-plus
 gorename
+go-signature-statusbar
 highlight-line
 highlight-selected
 language-docker
