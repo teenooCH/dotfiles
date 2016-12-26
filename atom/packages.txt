@@ -1,6 +1,5 @@
 file-icons
 file-types
-go-config
 go-plus
 highlight-line
 highlight-selected
