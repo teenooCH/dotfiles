@@ -9,3 +9,4 @@ minimap-highlight-selected
 monokai
 monokai-light
 terminal-panel
+vim-mode-plus
