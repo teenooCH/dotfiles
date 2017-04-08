@@ -1,10 +1,11 @@
 "*":
   "atom-terminal":
     app: "/usr/bin/konsole"
+  "autocomplete-plus":
+    confirmCompletion: "enter"
   core:
     disabledPackages: [
-      "atom-terminal-panel"
-      "terminal-status"
+      "autocomplete-snippets"
     ]
     packagesWithKeymapsDisabled: [
       "highlight-line"
