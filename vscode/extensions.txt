@@ -4,4 +4,5 @@ howardzuo.vscode-git-tags
 joaoacdias.golang-tdd
 lukehoban.Go
 patrys.vscode-code-outline
+PeterJausovec.vscode-docker
 vscodevim.vim
