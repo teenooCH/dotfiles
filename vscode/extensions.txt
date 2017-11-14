@@ -1,3 +1,4 @@
+DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 gerane.Theme-ILMLight
 howardzuo.vscode-git-tags
