@@ -3,7 +3,7 @@
 set -euf -o pipefail
 
 VscHome="${HOME}/vscode/"
-VscUserCfgDir"${VscHome}/.config/Code/User"
+VscUserCfgDir="${VscHome}/.config/Code/User"
 VscPackages="extensions.txt"
 
 if [ ! -d "${VscUserCfgDir}" ]; then
