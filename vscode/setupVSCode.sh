@@ -2,8 +2,8 @@
 # Setup VS Code editor
 set -euf -o pipefail
 
-VscHome="${HOME}/vscode/"
-VscUserCfgDir="${VscHome}/.config/Code/User"
+VscHome="${HOME}/.config/Code"
+VscUserCfgDir="${VscHome}/User"
 VscPackages="extensions.txt"
 
 if [ ! -d "${VscUserCfgDir}" ]; then
