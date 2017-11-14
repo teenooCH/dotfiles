@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.colorTheme": "ILMLight",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.fontSize": 18,
+    "editor.rulers": [80],
+    "go.formatTool": "goimports",
+    "go.lintTool": "gometalinter",
+    "go.testOnSave": true,
+    "go.coverOnSave": true,
+    "go.coverageOptions": "showUncoveredCodeOnly",
+    "go.docsTool": "gogetdoc"
+}
+
