@@ -8,5 +8,5 @@ minimap
 minimap-highlight-selected
 monokai
 monokai-light
-atom-terminal-panel
+terminal-panel-uoa
 vim-mode-plus
