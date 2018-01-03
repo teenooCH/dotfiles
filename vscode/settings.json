@@ -8,6 +8,6 @@
     "go.formatTool": "goimports",
     "go.lintTool": "gometalinter",
     "go.testOnSave": true,
-    "workbench.colorTheme": "ILMLight"
+    "workbench.colorTheme": "ILMLight",
+    "workbench.panel.location": "right",
 }
-
